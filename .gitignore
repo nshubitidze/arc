@@ -1,0 +1,112 @@
+# APP FOLDER
+/app/autoload.php
+/app/bootstrap.php
+/app/functions.php
+/app/etc/*
+!/app/etc/config.php
+/app/config_sandbox
+/app/code/Magento/TestModule*
+/app/design/frontend/Tsu/Macron/web/vendor
+
+#BIN FOLDER
+/bin/magento
+
+# NON PRODUCTION FOLDER
+/dev/*
+/phpserver/*
+/setup/*
+
+# GENERATED FOLDER
+/generated/*
+!/generated/.htaccess
+
+# LIB FOLDER
+/lib
+!/lib/.htaccess
+
+# PUB FOLDER
+/pub/*
+!/pub/favicon.ico
+!/pub/.htaccess
+!/pub/googlef4dd233ac1b509c9.html
+!/pub/errors
+/pub/errors/*
+!/pub/errors/local.xml
+!/pub/errors/macron
+!/pub/errors/inc
+!/pub/errors/inc/*
+/pub/media/*
+!/pub/media/.htaccess
+/pub/media/custom_options/*
+!/pub/media/custom_options/.htaccess
+/pub/media/customer/*
+!/pub/media/customer/.htaccess
+/pub/media/downloadable/*
+!/pub/media/downloadable/.htaccess
+/pub/media/import/*
+!/pub/media/import/.htaccess
+/pub/media/theme_customization/*
+!/pub/media/theme_customization/.htaccess
+!/pub/static
+/pub/static/*
+!/pub/static/.htaccess
+
+# VAR FOLDER
+/var/*
+!/var/.htaccess
+!/var/maxmind/
+
+# VENDOR FOLDER
+vendor/*
+!/vendor/.htaccess
+
+# SINGLE ROOT FILES
+/index.php
+/.editorconfig
+/.htaccess.sample
+/.php_cs.dist
+/.travis.yml.sample
+/.user.ini
+/auth.json.sample
+/CHANGELOG.md
+/COPYING.txt
+/grunt-config.json.sample
+/Gruntfile.js.sample
+/LICENSE.txt
+/LICENSE_AFL.txt
+/LICENSE_EE.txt
+/package.json.sample
+/README_EE.md
+/SECURITY.md
+/elastic.php
+/nginx.conf.sample
+
+# GENERIC EXCLUSION
+.DS_Store
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
+/.vscode
+atlassian*
+/nbproject
+/.idea
+/.gitattributes
+/node_modules
+/.grunt
+/Gruntfile.js
+/package.json
+/.php_cs
+/.php_cs.cache
+/grunt-config.json
+/.github
+core
+
+# SEO FILES
+/robots.txt
+/sitemap
+/sitemap.xml
+/pub/robots.txt
+/pub/sitemap
+/pub/sitemap.xml
